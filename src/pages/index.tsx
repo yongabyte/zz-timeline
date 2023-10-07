@@ -1,11 +1,16 @@
 import chronoItemBuilder from "@/lib/chronoItemBuilder";
 import { Chrono } from "react-chrono";
-
+import { Roboto } from 'next/font/google'
+ 
+const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
 export default function Home() {
   const imageItems = chronoItemBuilder();
   return (
-    <div 
-    className="font-mono"
+    <main  
+    className={roboto.className}
     >
       <Chrono
         items={imageItems}
@@ -22,6 +27,6 @@ export default function Home() {
           titleColorActive: 'green',
         }}
       />
-     </div>
+     </main>
   );
 }
