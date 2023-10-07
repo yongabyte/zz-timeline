@@ -17,6 +17,25 @@ This project aims to document the growth of a Zz plant from a single leaf cuttin
 
 Feel free to explore the timeline and enjoy the journey of our Zz plant. If you're interested in creating a similar project or have any questions, please don't hesitate to reach out.
 
+### Create Your Own Plant Growth Timeline
+
+Feeling inspired by our Zz plant growth journey? You can use this project as a template to record the growth of your own plants, whether they're indoor or outdoor. Here's how you can get started:
+
+### Folder Structure
+
+Create a directory within your project, such as `public/images`, to store your plant growth images.
+
+Here's an example folder structure:
+```
+   project-root/
+   ├── ...
+   ├── public/
+   │ └── images/
+   │ │ ├── 20220101_090000.jpg
+   │ │ ├── 20220115_093000.jpg
+   │ │ └── ...
+```
+
 ## Installation
 
 1. Clone this repository to your local machine.
