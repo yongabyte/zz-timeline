@@ -2,7 +2,7 @@
 
 Welcome to the Zz Plant Growth Timeline project built with Next.js! This project showcases the journey of a Zz plant (Zamioculcas zamiifolia), also known as the Zanzibar Gem, as it grows from a single leaf during the height of the pandemic. Follow along as we document the various stages of its growth with pictures and descriptions.
 
-## About the Zz Plant
+## :green_book: About the Zz Plant
 
 The Zz plant, scientifically known as Zamioculcas zamiifolia, is a popular indoor plant known for its resilience and ability to thrive in low-light conditions. Its glossy, dark green leaves make it an attractive addition to any space. During the pandemic, many people turned to indoor gardening as a therapeutic and fulfilling hobby, and the Zz plant was a perfect choice for those looking for a low-maintenance and visually appealing plant companion.
 
