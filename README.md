@@ -10,7 +10,7 @@ The Zz plant, scientifically known as Zamioculcas zamiifolia, is a popular indoo
 
 This project aims to document the growth of a Zz plant from a single leaf cutting. We've captured various stages of its development and created a timeline to share this journey with you. Each stage is represented by a photo, allowing you to witness the plant's progress over time.
 
-**Note:** We've used the `react-chrono` component to create the interactive timeline in this project.
+**Note:** We've used the [react-chrono](https://github.com/prabhuignoto/react-chrono) component to create the interactive timeline in this project.
 
 
 ## Usage
