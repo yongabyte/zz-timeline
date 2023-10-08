@@ -31,7 +31,7 @@ jobs:
 
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
-        uses: JamesIves/github-pages-deploy-action@vlatest
+        uses: JamesIves/github-pages-deploy-action@latest
         with:
           branch: gh-pages
           folder: out
