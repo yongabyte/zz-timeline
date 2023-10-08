@@ -2,10 +2,10 @@
 
 const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '');
 let assetPrefix = `/${repo}/`;
-let basePath = `/${repo}`;
+// let basePath = `/${repo}`;
 const nextConfig = {
   assetPrefix,
-  basePath,
+  basePath: '/zz-timeline'
   reactStrictMode: true,
   output: 'export',
   images: {
