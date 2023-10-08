@@ -1,4 +1,5 @@
-name: github page deploy action
+# https://github.com/DaveAldon/Next.js-and-GitHub-Pages-Example/blob/main/.github/workflows/node.js.yml
+name: github pages deploy action
 
 on:
   push:
