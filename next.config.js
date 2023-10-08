@@ -5,7 +5,7 @@ let assetPrefix = `/${repo}/`;
 // let basePath = `/${repo}`;
 const nextConfig = {
   assetPrefix,
-  basePath: '/zz-timeline',
+  basePath: assetPrefix,
   reactStrictMode: true,
   output: 'export',
   images: {
