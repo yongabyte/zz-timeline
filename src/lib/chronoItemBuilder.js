@@ -1,12 +1,9 @@
 // lib/chronoItemBuilder.js
-import { useRouter } from 'next/router';
-
 const imageContext = require.context('/public/images', false, /\.(jpg|jpeg|png|gif)$/);
 
-const chronoItemBuilder = () => {
+const chronoItemBuilder = (basePath) => {
   const imageFilenames = imageContext.keys();
   const relativeFilenames = imageFilenames.filter((filename) => filename.startsWith('public/'));
-  const basePath =  useRouter().basePath;
 
   const parsedDates = relativeFilenames.map((imagePath) => {
     const filename = imagePath.split('/').pop(); // Get the filename from the path
