@@ -8,7 +8,6 @@ const roboto = Roboto({
 })
 export default function Home() {
   const imageItems = chronoItemBuilder();
-  console.log(JSON.stringify(imageItems));
   return (
     <main  
     className={roboto.className}
