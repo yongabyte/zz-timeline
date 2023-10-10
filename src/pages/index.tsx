@@ -1,13 +1,16 @@
 import chronoItemBuilder from "@/lib/chronoItemBuilder";
 import { Chrono } from "react-chrono";
 import { Roboto } from 'next/font/google'
- 
+import { useRouter } from 'next/router';
+
 const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
 })
+
 export default function Home() {
-  const imageItems = chronoItemBuilder();
+  const basePath =  useRouter().basePath;
+  const imageItems = chronoItemBuilder(basePath);
   return (
     <main  
     className={roboto.className}

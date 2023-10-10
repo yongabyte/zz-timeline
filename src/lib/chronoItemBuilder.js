@@ -1,7 +1,7 @@
 // lib/chronoItemBuilder.js
-const imageContext = require.context('../../public/images', false, /\.(jpg|jpeg|png|gif)$/);
+const imageContext = require.context('/public/images', false, /\.(jpg|jpeg|png|gif)$/);
 
-const chronoItemBuilder = () => {
+const chronoItemBuilder = (basePath) => {
   const imageFilenames = imageContext.keys();
   const relativeFilenames = imageFilenames.filter((filename) => filename.startsWith('public/'));
 
@@ -21,7 +21,7 @@ const chronoItemBuilder = () => {
       media: {
         name:dateformatted,
         source: {
-          url: `/images/${filename}`
+          url: `${basePath}/images/${filename}`
         },
         type: "IMAGE"
       }
