@@ -13,10 +13,14 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "types": [
+      "webpack-env"
+    ],
     "paths": {
       "@/*": ["./src/*"]
     }
+
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/lib/chronoItemBuilder.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
