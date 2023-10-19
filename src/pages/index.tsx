@@ -11,7 +11,7 @@ const roboto = Roboto({
 export default function Home() {
   const basePath: string = useRouter().basePath; //finding current bath path, in case of app lives on subdomain 
   const imageItems = new ChronoItemBuilder(basePath).buildchronoItems();
-  let mHeight: string = "400";
+  let mHeight: string = "500";
 
   if (typeof window !== "undefined" && window.innerWidth <= 768){
     mHeight = "280";
