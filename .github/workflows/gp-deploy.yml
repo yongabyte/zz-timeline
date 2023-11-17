@@ -1,4 +1,4 @@
-name: build static github pages action
+name: static pages build action
 
 on:
   push:
