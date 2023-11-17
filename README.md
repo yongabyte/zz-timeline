@@ -1,4 +1,5 @@
 # :seedling: Zz Plant Growth Timeline
+![Build Action](https://github.com/yongabyte/zz-timeline/actions/workflows/gp-deploy.yml/badge.svg) ![Deployment Action](https://github.com/yongabyte/zz-timeline/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 Welcome to the Zz Plant Growth Timeline project built with Next.js! This project showcases the journey of a Zz plant (Zamioculcas zamiifolia), also known as the Zanzibar Gem, as it grows from a single leaf during the height of the pandemic. Follow along as we document the various stages of its growth with pictures and descriptions.
 
