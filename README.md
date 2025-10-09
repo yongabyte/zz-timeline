@@ -1,5 +1,5 @@
 # :seedling: Zz Plant Growth Timeline
-[ZZ Timeline](yongabyte.github.io/zz-timeline/)
+[ZZ Timeline](https://yongabyte.github.io/zz-timeline)
 
 ![Build Action](https://github.com/yongabyte/zz-timeline/actions/workflows/gp-deploy.yml/badge.svg) ![Deployment Action](https://github.com/yongabyte/zz-timeline/actions/workflows/pages/pages-build-deployment/badge.svg)
 
